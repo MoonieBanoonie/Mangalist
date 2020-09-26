@@ -1,0 +1,24 @@
+
+tr:hover{
+  transition: all 250ms linear;
+  transform:scale(1.01);
+}
+
+.manga-title{
+  font-size: 1rem;
+}
+
+.manga-title:hover{
+  font-size: 1.1rem;
+}
+
+.mr-sm-2{
+  width: auto;
+}
+
+.btn{
+  font-size: 0.9rem;
+  color: white;
+  background-color: #116466;
+  font-weight:bold;
+}

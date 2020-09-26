@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Orbitron&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 1rem;
+}
+
+
+body{
+  background-color: #D1E8E2;
+  font-family: 'Chakra Petch', sans-serif;
+
+}
