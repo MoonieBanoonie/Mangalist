@@ -1,10 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import "./DiscoverComponent.css"
-import{
-  Link
-}from "react-router-dom";
-
 
 class DiscoverComponent extends React.Component{
   constructor(props){
@@ -39,9 +35,9 @@ class DiscoverComponent extends React.Component{
       <div id="mainContent" className="container">
         {this.state.items.map((item) => (
           <div>
-          <a target="_blank" href={item.url}>
+          <a target="_blank" href={item.url} rel="noopener noreferrer">
           <figure key={item.mal_id} className="gridItem">
-           <img src={item.image_url}/>
+           <img src={item.image_url} alt="no data available"/>
          </figure>
          </a>
           </div>
@@ -53,23 +49,3 @@ class DiscoverComponent extends React.Component{
 }
 
 export default DiscoverComponent
-
-// render(){
-//   return(
-//     <div className = "container">
-//       <h1>Discover new manga!</h1>
-//     {
-//      this.state.items.map(
-//        item =>
-//        <a target="_blank" href={item.url}>
-//        <figure key={item.mal_id} className="gridItem">
-//         <img src={item.image_url}/>
-//       </figure>
-//       </a>
-//     )
-//   }
-//     </div>
-//   )
-// }
-
-//style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gridGap: '10px', gridAutoRows: 'minMax(100px, auto)'}}

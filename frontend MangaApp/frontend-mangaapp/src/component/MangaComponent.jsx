@@ -88,7 +88,7 @@ class MangaComponent extends Component {
                                        <Field className="form-control" type="text" name="link" />
                                    </fieldset>
                                    <button className="btn" type="submit">Update</button>
-                                   <button className="btn" type="submit"><a target="_blank" href={link}>Read Manga</a></button>
+                                   <button className="btn" type="submit"><a target="_blank" href={link} rel="noopener noreferrer">Read Manga</a></button>
                                </Form>)}
                    </Formik>
                   <br></br>

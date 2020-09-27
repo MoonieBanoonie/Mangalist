@@ -8,9 +8,7 @@ import DiscoverComponent from './DiscoverComponent';
 import{
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  Redirect
+  Route
 }from "react-router-dom";
 
 

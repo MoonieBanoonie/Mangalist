@@ -54,7 +54,9 @@ render(){
     (manga) => {
     if(manga.title.toLowerCase().split(' ').join('').indexOf(this.state.search.toLowerCase().split(' ').join('')) !== -1){
           return manga;
-    }}
+    }
+    else return null;
+  }
   );
 
   return(
