@@ -1,17 +1,33 @@
 .btn{
   margin-right: 1rem;
+  border: solid black;
+  border-width: thin;
 
 }
 
-.movieContainer figure{
+.mangaContainer figure{
   height: 9rem;
   width: 100%;
   transform:scale(1.02);
 
 }
-.movieContainer figure img{
+.mangaContainer figure img{
   height: 100%;
   width: 100%;
   object-fit:fill;
   box-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.19), 0 0.6rem 0.6rem rgba(0,0,0,0.23);
+  animation-name: popup;
+  animation-duration: 1s;
+}
+
+@keyframes popup{
+  from{
+    opacity:0;
+    transform: translateY(-5rem);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
 }

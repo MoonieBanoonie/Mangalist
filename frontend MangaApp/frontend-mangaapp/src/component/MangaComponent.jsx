@@ -59,7 +59,7 @@ class MangaComponent extends Component {
          <div>
          <br></br>
               <div className="container">
-              <div class="movieContainer">
+              <div class="mangaContainer">
                   <figure>
                   <img src={"/img/manga_" + id + ".png" || "/img/manga_" + id + ".jpg"}  alt={this.state.title}/>
                   </figure>

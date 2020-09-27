@@ -2,6 +2,7 @@
 tr:hover{
   transition: all 250ms linear;
   transform:scale(1.01);
+  background-color: #D1E8E2
 }
 
 .manga-title{
@@ -9,7 +10,7 @@ tr:hover{
 }
 
 .manga-title:hover{
-  font-size: 1.1rem;
+  font-weight:bold;
 }
 
 .mr-sm-2{
@@ -19,6 +20,6 @@ tr:hover{
 .btn{
   font-size: 0.9rem;
   color: white;
-  background-color: #116466;
+  background-color: #63c24e;
   font-weight:bold;
 }

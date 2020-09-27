@@ -3,8 +3,8 @@
   background: url('../img/transbanner2.png');
   background-repeat: no-repeat;
   background-size: 45%;
-  background-color: #116466;
-
+  background-position:left;
+  background-color: #ffd500;
 }
 header{
   box-sizing: border-box;
@@ -12,7 +12,7 @@ header{
   height:2rem;
   display: flex;
   padding:4em;
-  background-image: url('../img/godofhighschool.png');
+  background-image: url('../img/manga_370.png');
   background-repeat: no-repeat;
   background-size:60%;
   background-position:right;

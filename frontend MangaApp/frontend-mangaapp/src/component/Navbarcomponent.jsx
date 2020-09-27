@@ -14,10 +14,10 @@ class Navbarcomponent extends Component{
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
             <Nav.Link href="/newmanga">Add Manga</Nav.Link>
-            <Nav.Link href="#link">Discover</Nav.Link>
+            <Nav.Link href="/discover">Discover</Nav.Link>
           </Nav>
           <Nav className="mr-right">
-              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/about">About this App</Nav.Link>
           </Nav>
           </Navbar.Collapse>
         </Navbar>

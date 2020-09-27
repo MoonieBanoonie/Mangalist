@@ -6,7 +6,7 @@ class Banner extends Component{
 
   render(){
     return(
-      <div class="detail-bg">
+      <div className="detail-bg">
       <header>
      </header>
      </div>
