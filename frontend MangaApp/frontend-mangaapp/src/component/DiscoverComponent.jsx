@@ -20,7 +20,7 @@ class DiscoverComponent extends React.Component{
       'url': 'https://jikan1.p.rapidapi.com/manga/' + rand + '/recommendations',
       'headers': {
         'x-rapidapi-host': 'jikan1.p.rapidapi.com',
-        'x-rapidapi-key': 'cf481e4390msh1f69f6b4c62a2eep183315jsn0b2939ba020a'
+        'x-rapidapi-key': ''
       }
     })
     .then(response => {
